@@ -7,12 +7,13 @@
 
 .container-video {
     position: relative;
-    width: 100%;
+    width: 80%;
     overflow: hidden;
     padding-top: 56.25%; /* 16:9 Aspect Ratio */
   }
   .responsive-iframe {
     position: absolute;
+    display: block;
     top: 0;
     left: 0;
     bottom: 0;
@@ -26,4 +27,14 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .row2 {
+    display: flex;
+  }
+  
+  /* Create two equal columns that sits next to each other */
+  .column2 {
+    flex: 50%;
+    padding: 10px;
   }
